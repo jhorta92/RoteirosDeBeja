@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/AddConstraint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AddConstraint"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/ Parent Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Parent Position"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <Button
+        android:id="@+id/Order Position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Position"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <Button
+        android:id="@+id/Alignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Alignment"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <Button
+        android:id="@+id/Baseline Alignment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Baseline Alignment"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="443dp" />
+
+    <Button
+        android:id="@+id/Overview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Overview"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="527dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
